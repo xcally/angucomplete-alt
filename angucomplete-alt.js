@@ -338,6 +338,7 @@
       }
 
       function updateInputField(){
+        if (scope.disableAutocomplete) return;
         var current = scope.results[scope.currentIndex];
         if (scope.matchClass) {
           inputField.val(extractTitle(current.originalObject));
@@ -821,7 +822,8 @@
         fieldTabindex: '@',
         inputName: '@',
         focusFirst: '@',
-        parseInput: '&'
+        parseInput: '&',
+        disableAutocomplete: '='
       },
       templateUrl: function(element, attrs) {
         return attrs.templateUrl || TEMPLATE_URL;

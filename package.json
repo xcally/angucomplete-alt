@@ -1,18 +1,25 @@
 {
-  "name": "angucomplete-alt",
-  "version": "3.0.0",
+  "name": "@xenialab/angucomplete-alt",
+  "version": "3.1.0",
+  "maintainers": [
+    "Andrea Bianco <andrea.bianco@xcally.com>",
+    "Vito Macchia <vito.macchia@xcally.com>"
+  ],
   "description": "Awesome Autocompleteness for AngularJS",
   "author": "ghiden",
   "email": "hidenari@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghiden/angucomplete-alt.git"
+    "url": "https://github.com/xcally/angucomplete-alt.git"
   },
   "engines": {
     "node": ">= 0.8.4"
   },
   "license": "MIT",
-  "main": "./angucomplete-alt.js",
+  "main": "dist/angucomplete-alt.min.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -29,4 +36,3 @@
     "load-grunt-tasks": "~0.2.0"
   }
 }
-
