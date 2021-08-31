@@ -1,9 +1,10 @@
 {
   "name": "@xenialab/angucomplete-alt",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "maintainers": [
     "Andrea Bianco <andrea.bianco@xcally.com>",
-    "Vito Macchia <vito.macchia@xcally.com>"
+    "Vito Macchia <vito.macchia@xcally.com>",
+    "Fabio Lodato <fabio.lodato@xcally.com>"
   ],
   "description": "Awesome Autocompleteness for AngularJS",
   "author": "ghiden",
@@ -18,7 +19,9 @@
   "license": "MIT",
   "main": "dist/angucomplete-alt.min.js",
   "files": [
-    "dist"
+    "dist",
+    "angucomplete-alt.css",
+    "angucomplete-alt.js"
   ],
   "dependencies": {},
   "devDependencies": {
